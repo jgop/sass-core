@@ -17,7 +17,7 @@ img{
   width: 100%;
 }
 
-*{
+*, ::after, ::before{
   box-sizing: border-box;
 }
 
@@ -25,4 +25,6 @@ a{
   text-decoration: none;
 }
 
-
+*{
+  outline: 0;
+}
