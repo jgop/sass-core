@@ -1,0 +1,30 @@
+// COLORS
+$black: #000000;
+$white: #FFFFFF;
+
+// MEDIDAS
+$pad_unit: 4px;
+$col_pad: $pad_unit * 4; 
+
+
+// MEDIA QUERYS SIZES
+$breakpoints: (
+  xs: 0px,
+  sm: 350px,
+  tab: 768px,
+  lap: 1024px,
+  mid: 1200px,
+  xmid: 1400px,
+  lg: 1900px,
+  xlg: 2500px,
+);
+
+@function media-maxWidth($breakpoint) {
+  @return map-get($breakpoints, $breakpoint) - 1;
+}
+@function media-minWidth($breakpoint) {
+  @return map-get($breakpoints, $breakpoint);
+}
+
+// COLS
+$total_cols: 24;

@@ -1,0 +1,22 @@
+{
+  "name": "sass-core",
+  "version": "1.0.0",
+  "description": "sass classes helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgop/sass-core.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "João Palhinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgop/sass-core/issues"
+  },
+  "homepage": "https://github.com/jgop/sass-core#readme"
+}

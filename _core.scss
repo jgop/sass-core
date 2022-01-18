@@ -1,0 +1,32 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+  background-color: $white;
+}
+
+p{
+  margin: 0px;
+}
+
+div{
+  position: relative;
+}
+
+img{
+  float: left;
+  width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.p0{
+  padding: 0px !important;
+}
+.pl0{
+  padding-left: 0px !important;
+}
+.pr0{
+  padding-right: 0px !important;
+}
