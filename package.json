@@ -1,5 +1,5 @@
 {
-  "name": "sass-core",
+  "name": "@jgop7/sass-core",
   "version": "1.0.0",
   "description": "sass classes helpers",
   "main": "index.js",

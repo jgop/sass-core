@@ -61,4 +61,27 @@
   @include full-width;
 }
 
+@mixin p0{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.p0{
+  @include p0;
+}
+
+@mixin pl0{
+  padding-left: 0px !important;
+}
+.pl0{
+  @include pl0;
+}
+
+@mixin pr0{
+  padding-right: 0px !important;
+}
+.pr0{
+  @include pr0;
+}
+
+
 
